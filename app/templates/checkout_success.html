@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h3> Thanks for your order!</h3>
+<p>
+    We appreciate your business!
+    If you have any questions, please email
+    <a href="mailto:reynolds1021@gmail.com ">reynolds1021@gmail.com</a>.
+</p>
+<div>
+    {{ stripe_info }}
+</div>
+{% endblock %}
